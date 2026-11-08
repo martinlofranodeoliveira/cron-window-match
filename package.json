@@ -1,0 +1,14 @@
+{
+  "name": "cron-window-match",
+  "version": "0.1.0",
+  "description": "Bounded cron-subset matcher: next fire times after a UTC start, Vixie day rule, no daemon. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/cron.test.js",
+    "demo": "node bin/cron-window.mjs --assert"
+  }
+}
